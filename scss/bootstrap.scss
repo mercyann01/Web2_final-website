@@ -1,1 +1,10 @@
-@import '../node_modules/bootstrap/scss/bootstrap.scss'
+// COLORS
+$primary: #5E350D;
+$secondary: #8A4E13;
+$light: #F6EDDD;
+$dark: #100F0F;
+
+// FONTS
+$font-family-sans-serif: "Merriweather", serif;
+
+@import "../node_modules/bootstrap/scss/bootstrap";
