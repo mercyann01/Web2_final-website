@@ -1,3 +1,7 @@
+body{
+  margin-left:auto;
+  margin-right: auto;
+}
 a {
   text-decoration: none;
   list-style-type: none;
@@ -7,22 +11,39 @@ a {
 button{
   font-family: "poller one", sans-serif;
 }
+
+.calendars{
+   background-image: url("../images/mark-your-calendars.png");
+   background-position: right 10% top 10%;
+   background-repeat: no-repeat;
+   height: 938px;
+}
 p {
   font-family: "albert sans", sans-serif;
 }
 
-
-h2{
+ h2{
   font-family: "poller one", sans-serif;
 }
+.navbar h2{
+  font-size: .75rem;
+}
 
-h1{
+.hero h1{
   font-family: 'poller one', sans-serif;
+  font-size: 7rem;
+}
+.hero h6{
+  font-family: 'albert sans', sans-serif;
+  font-size: 2rem;
 }
 
 h6{
   font-family: 'albert sans', sans-serif;
   font-size: 3.6rem;
+}
+.d-flex ul{
+  justify-content: space-between;
 }
 
 .hero{
