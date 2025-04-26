@@ -4,6 +4,9 @@ a {
   list-style: none;
 }
 
+button{
+  font-family: "poller one", sans-serif;
+}
 p {
   font-family: "albert sans", sans-serif;
 }
@@ -13,10 +16,29 @@ h2{
   font-family: "poller one", sans-serif;
 }
 
+h1{
+  font-family: 'poller one', sans-serif;
+}
 
+h6{
+  font-family: 'albert sans', sans-serif;
+  font-size: 3.6rem;
+}
+
+.hero{
+  background-image: url(../images/hero-coffee.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  height: 695px;
+}
+.custom-btn {
+  font-family: 'poller one', sans-serif;
+}
 ul{
   justify-content: space-between;
 }
+
+li::marker { content: none; }
 
 @media (max-width: 1000px) {
   .hero .image-container {
