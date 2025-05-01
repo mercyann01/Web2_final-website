@@ -19,14 +19,19 @@ button{
   font-family: "poller one", sans-serif !important;
 }
 .brands{
-  height: 1155px;
+  
   background-image: url("../images/coffee-brands-beans.png");
   background-repeat: no-repeat;
   background-position: left 2% top 3%;
-  background-size: 90%;
+
 }
 .brands ul{
-  row-gap: 100px;
+  row-gap: 50px;
+  margin-bottom: 80px !important;
+}
+.btn-green{
+  background-color: #506F4F !important;
+  color:#F6EDDD !important;
 }
 .calendars{
    background-image: url("../images/Group\ 32.png");
@@ -61,7 +66,7 @@ button{
 }
 
 .curve-brands{
-  margin-bottom: -40px;
+  margin-bottom: -25px;
 }
 
 .curve-celebrate{
@@ -80,6 +85,9 @@ button{
   font-size: 64px !important;
 }
 
+.form {
+  background-color: #8A4E13;
+}
  h2{
   font-family: "poller one", sans-serif;
 }
@@ -96,6 +104,13 @@ button{
 
 .hero-text{
   padding-top: 60px;
+}
+h1{
+  font-family: 'poller one', sans-serif;
+  font-size: 6rem;
+  padding-bottom: 15px;
+  padding-top: 12px;
+
 }
 .hero h1{
   font-family: 'poller one', sans-serif;
@@ -142,15 +157,21 @@ h6{
   margin-left: 1.5rem;
 }
 
-
-p {
-  font-family: "albert sans", sans-serif;
-}
 #overlay{
   position: relative;
   right: -1100px;
   bottom: -60px;
 }
+.footer-image
+{
+  position: relative;
+  right: -1100px;
+  bottom: -60px;
+}
+p {
+  font-family: "albert sans", sans-serif;
+}
+
 
 .right-side{
   padding-top: 150px;
@@ -162,11 +183,58 @@ ul{
 
 li::marker { content: none; }
 
-@media  (max-width: 728px) {
-  .hero-text{
-    font-size: 1.5rem;
+@media only screen and (max-width: 720px) {
+
+  .hero h1{
+    font-size: 3rem;
   }
+  .hero{
+    background-image: url(../images/hero-coffee.png);
+    background-position: relative;
+    background-repeat: no-repeat;
+    background-size: 150%;
+ 
+  }
+.nav-btn{
+  display:none !important;
 }
+.navbar{
+  margin-bottom: -50px !important;
+}
+
+.navbar-nav{
+  padding: 1.6rem;
+}
+.nav-item{
+  padding-top: 1rem;
+  margin-left: -10rem;
+}
+
+  .curve{
+    margin-bottom: -10px;
+  }
+  .date{
+    font-family: "albert sans", sans-serif;
+    font-size: 12px !important;
+  }
+  .calendars {
+    display: flex;
+    flex-direction: column !important;
+   
+  }
+
+  .curve-brands{
+    margin-bottom: -50px;
+  }
+
+}
+
+@media only screen and (min-width: 721px)
+{
+
+ 
+  }
+
 @media (max-width: 1000px) {
   .hero .image-container {
     display: flex;
