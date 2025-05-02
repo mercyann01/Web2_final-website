@@ -283,7 +283,7 @@ li::marker { content: none; }
 }
 /*happening*/
 .happening h3{
-  m: 10rem !important;
+  margin: 10rem !important;
 }
 /*celebrating*/
 .right-images{
