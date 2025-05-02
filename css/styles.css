@@ -184,49 +184,56 @@ ul{
 li::marker { content: none; }
 
 @media only screen and (max-width: 720px) {
+  
 
   .hero h1{
     font-size: 3rem;
   }
   .hero{
     background-image: url(../images/hero-coffee.png);
-    background-position: relative;
+    background-position: left 40% top 400%;
     background-repeat: no-repeat;
     background-size: 150%;
- 
   }
 .nav-btn{
   display:none !important;
 }
-.navbar{
-  margin-bottom: -50px !important;
-}
 
-.navbar-nav{
-  padding: 1.6rem;
-}
 .nav-item{
   padding-top: 1rem;
   margin-left: -10rem;
 }
 
   .curve{
-    margin-bottom: -10px;
+    margin-bottom: -2px;
   }
   .date{
     font-family: "albert sans", sans-serif;
     font-size: 12px !important;
+    width: 100%;
   }
   .calendars {
-    display: flex;
     flex-direction: column !important;
    
+  }
+  .right-side{
+    width: 100%;
   }
 
   .curve-brands{
     margin-bottom: -50px;
   }
 
+  #overlay{
+      position: relative;
+      right: -200px;
+      bottom: 30px;
+      size: 50%;
+      max-width: 100%;
+       width: 100%; 
+       height: auto !important; 
+
+  }
 }
 
 @media only screen and (min-width: 721px)
