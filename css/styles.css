@@ -66,7 +66,7 @@ button{
   overflow: hidden;
 }
 .curve-bottom{
-  margin-top:-40px;
+  margin-top:-50px;
   width: 100%;
   left: 0;
   right: 0;
@@ -75,7 +75,7 @@ button{
 }
 
 .curve-brands{
-  margin-bottom: -25px;
+  margin-bottom: -30px;
   width: 100%;
   left: 0;
   right: 0;
@@ -112,6 +112,10 @@ button{
 .form {
   background-color: #8A4E13;
  width: fill;
+ border-radius: 1rem;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
 }
  h2{
   font-family: "poller one", sans-serif;
@@ -171,7 +175,7 @@ h6{
 }
 .right-images{
   margin-left: -5%;
-  margin-right: 10%;
+  
 }
 
 .navbar h2{
@@ -185,13 +189,14 @@ h6{
   padding: 1.6rem;
 }
 .nav-item{
-  margin-left: 1.5rem;
+  margin-left: 2rem !important;
 }
 
 #overlay{
   position: relative;
-  right: -1100px;
-  bottom: -60px;
+  position: relative;
+  right: -900px;
+  bottom: 125px;
 }
 
 .footer-image
@@ -205,7 +210,11 @@ p {
 }
 .socials{
 margin-left: 50rem !important;
-justify-content: space-between;
+display: flex;
+width: auto;
+justify-content: center;
+justify-content: space-evenly;
+
 }
 
 
@@ -260,27 +269,17 @@ li::marker { content: none; }
 
 
 /*brands*/
-#overlay{
-  position: relative;
-  right: -200px;
-  bottom: 30px;
-  size: 50%;
-  max-width: 100%;
-   width: 100%; 
-   height: auto !important; 
-   overflow: hidden;
-}
   #overlay{
-      position: relative;
-      right: -200px;
-      bottom: 30px;
-      size: 50%;
-      max-width: 100%;
-       width: 100%; 
-       height: auto !important; 
-       overflow: hidden;
-
+    position: relative;
+    right: -450px;
+    bottom: -80px;
+    size: -50%;
+    max-width: 100%;
+     width: 15%; 
+     height: auto !important; 
+     overflow: hidden;
   }
+
 .curve-brands{
   margin-bottom: -50px;
 }
@@ -289,23 +288,48 @@ li::marker { content: none; }
   m: 10rem !important;
 }
 /*celebrating*/
+.right-images{
+  position: relative;
+  max-width: 50%;
+   width: 50%; 
+   height: auto !important; 
+   overflow: hidden;
+
+}
+.left-images{
+  position: relative;
+  max-width: 50%;
+   width:50%; 
+   height: 50% !important; 
+   overflow: hidden;
+
+}
 /*footer*/
  
 }
 
 @media only screen and (min-width: 721px)
 {
-
+  .nav-btn{
+    display:none !important;
+  }
+  
+  .nav-item{
+    padding-top: 1rem;
+    margin-left: -10rem;
+  }
+  #overlay{
+    position: relative;
+    right: -700px;
+    bottom: 30px;
+   
+    max-width: 100%;
+     width: 20%; 
+     height: auto !important; 
+     overflow: hidden;
+  }
  
   }
 
-@media (max-width: 1000px) {
-  .hero .image-container {
-    display: flex;
-    justify-content: center;
-  }
-  .hero .text-container {
-    text-align: center;
-  }
-}
+
 
