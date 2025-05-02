@@ -84,7 +84,7 @@ button{
 }
 
 .curve-celebrate{
-  margin-bottom: -30px;
+  margin-bottom: -50px;
   width: 100%;
   left: 0;
   right: 0;
@@ -230,7 +230,7 @@ li::marker { content: none; }
   
 /*nav*/
 .nav-btn{
-  display:none;
+  display:none !important;
 }
 
 .nav-item{
@@ -283,22 +283,22 @@ li::marker { content: none; }
 }
 /*happening*/
 .happening h3{
-  margin: 10rem !important;
+  margin-bottom: 1rem !important;
 }
 /*celebrating*/
 .right-images{
   position: relative;
   max-width: 50%;
-   width: 50%; 
-   height: auto !important; 
+   width: 30%; 
+   height: 30% !important; 
    overflow: hidden;
 
 }
 .left-images{
   position: relative;
   max-width: 50%;
-   width:50%; 
-   height: 50% !important; 
+   width:30%; 
+   height: 30% !important; 
    overflow: hidden;
 
 }
