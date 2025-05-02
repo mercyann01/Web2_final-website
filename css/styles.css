@@ -4,6 +4,10 @@ body{
 background-color: #F6EDDD !important;
 
 }
+.img{
+  max-width: 100%;
+  height: auto;
+}
 
 a {
   text-decoration: none;
@@ -63,18 +67,38 @@ button{
 }
 .curve-bottom{
   margin-top:-40px;
+  width: 100%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
 }
 
 .curve-brands{
   margin-bottom: -25px;
+  width: 100%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
 }
 
 .curve-celebrate{
   margin-bottom: -30px;
+  width: 100%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
 }
 
 .curve-bottom-celebrating{
   margin-top: -20px;
+  width: 100%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
 }
 .d-flex ul{
   justify-content: space-between;
@@ -87,6 +111,7 @@ button{
 
 .form {
   background-color: #8A4E13;
+ width: fill;
 }
  h2{
   font-family: "poller one", sans-serif;
@@ -135,6 +160,12 @@ h6{
   height: 695px;
 }
 
+.location{
+  margin-left: 4rem;
+}
+.terms{
+
+}
 .left-images{
   margin-right: -15%;
 }
@@ -162,14 +193,19 @@ h6{
   right: -1100px;
   bottom: -60px;
 }
+
 .footer-image
 {
   position: relative;
-  right: -1100px;
-  bottom: -60px;
+  right: -900px;
+  bottom: 125px;
 }
 p {
   font-family: "albert sans", sans-serif;
+}
+.socials{
+margin-left: 50rem !important;
+justify-content: space-between;
 }
 
 
@@ -185,16 +221,7 @@ li::marker { content: none; }
 
 @media only screen and (max-width: 720px) {
   
-
-  .hero h1{
-    font-size: 3rem;
-  }
-  .hero{
-    background-image: url(../images/hero-coffee.png);
-    background-position: left 40% top 400%;
-    background-repeat: no-repeat;
-    background-size: 150%;
-  }
+/*nav*/
 .nav-btn{
   display:none !important;
 }
@@ -204,26 +231,45 @@ li::marker { content: none; }
   margin-left: -10rem;
 }
 
-  .curve{
-    margin-bottom: -2px;
-  }
-  .date{
-    font-family: "albert sans", sans-serif;
-    font-size: 12px !important;
-    width: 100%;
-  }
-  .calendars {
-    flex-direction: column !important;
-   
-  }
-  .right-side{
-    width: 100%;
-  }
+/*hero*/
+.curve{
+  margin-bottom: -2px;
+}
+.hero h1{
+  font-size: 3rem;
+}
+.hero{
+  background-image: url(../images/hero-coffee.png);
+  background-position: left 40% top 400%;
+  background-repeat: no-repeat;
+  background-size: 150%;
+}
+/*calendar*/
+.date{
+  font-family: "albert sans", sans-serif;
+  font-size: 12px !important;
+  width: 100%;
+}
+.calendars {
+  flex-direction: column !important;
+ flex-wrap: wrap !important;
+}
+.right-side{
+  width: 100%;
+}
 
-  .curve-brands{
-    margin-bottom: -50px;
-  }
 
+/*brands*/
+#overlay{
+  position: relative;
+  right: -200px;
+  bottom: 30px;
+  size: 50%;
+  max-width: 100%;
+   width: 100%; 
+   height: auto !important; 
+   overflow: hidden;
+}
   #overlay{
       position: relative;
       right: -200px;
@@ -232,8 +278,19 @@ li::marker { content: none; }
       max-width: 100%;
        width: 100%; 
        height: auto !important; 
+       overflow: hidden;
 
   }
+.curve-brands{
+  margin-bottom: -50px;
+}
+/*happening*/
+.happening h3{
+  m: 10rem !important;
+}
+/*celebrating*/
+/*footer*/
+ 
 }
 
 @media only screen and (min-width: 721px)
