@@ -167,9 +167,7 @@ h6{
 .location{
   margin-left: 4rem;
 }
-.terms{
 
-}
 .left-images{
   margin-right: -15%;
 }
@@ -232,7 +230,7 @@ li::marker { content: none; }
   
 /*nav*/
 .nav-btn{
-  display:none !important;
+  display:none;
 }
 
 .nav-item{
